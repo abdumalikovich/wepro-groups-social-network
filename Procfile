@@ -1,0 +1,1 @@
+web: nodemon index.js && export NODE_ENV=production
