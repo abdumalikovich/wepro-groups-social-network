@@ -43,7 +43,7 @@ app.use("/", (req, res) => {
 if (process.env.NODE_ENV === 'production') {
 	console.log("PRODUCTION MODE");
 
-	mongoose.connect(`mongodb+srv://shakhabdumalikovich:${config.MONGO_PASSWORD}@cluster0.vnxts.mongodb.net/social_network?retryWrites=true&w=majority`, () => {
+	mongoose.connect(`mongodb+srv://shakhabdumalikovich:HardWorkForeverPays$1@cluster0.vnxts.mongodb.net/social_network?retryWrites=true&w=majority`, () => {
 		console.log("Ready for fucking!");
 	})
 
