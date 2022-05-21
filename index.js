@@ -52,7 +52,7 @@ if (process.env.NODE_ENV === 'production') {
 	console.log("DEVELOPMENT MODE");
 	
 	mongoose.connect(`mongodb://localhost:27017/social_network`, () => {
-		console.log("Ready for fucking!");
+		console.log("Ready!");
 	})
 
 	mongoose.set("debug", true)
